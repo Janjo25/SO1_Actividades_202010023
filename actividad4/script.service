@@ -1,0 +1,10 @@
+[Unit]
+Description=Servicio de Saludo
+After=network.target
+
+[Service]
+ExecStart=/home/luis-lizama/IdeaProjects/SistemasOperativos/TareaDos/script.sh
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
