@@ -1,3 +1,5 @@
+# Descripción y Funcionamiento del Completely Fair Scheduler
+
 El Completely Fair Scheduler (CFS) es el algoritmo de planificación predeterminado en Linux desde la versión 2.6.23. A
 diferencia de los enfoques anteriores que asignaban prioridades fijas o turnos de tiempo, el CFS distribuye el tiempo de
 CPU de manera más equitativa entre las tareas. Se basa en el concepto de "justicia", donde cada tarea recibe una
